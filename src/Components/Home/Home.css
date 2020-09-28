@@ -1,0 +1,26 @@
+.site-layout {
+  background-color: yellow;
+  padding: 24px;
+  min-height: 280px;
+
+  
+}
+#components-layout-demo-top .logo {
+  background: rgba(255, 255, 255, 0.2);
+  float: left;
+}
+
+.categories{
+  opacity: 0,3;
+  
+  
+}
+
+.categories:hover {
+  -moz-box-shadow: 0 0 30px rgb(88, 86, 86);
+  -webkit-box-shadow: 0 0 30px rgb(71, 69, 69);
+  box-shadow: 0 0 25px rgb(104, 99, 99);
+		cursor: pointer;
+	
+}
+

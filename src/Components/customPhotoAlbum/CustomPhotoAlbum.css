@@ -1,0 +1,46 @@
+.rightArrow{
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    left:95%;
+    top:50%;
+}
+
+.rightArrow:hover{
+    -moz-box-shadow: 0 0 8px rgb(88, 86, 86);
+    -webkit-box-shadow: 0 0 8px rgb(71, 69, 69);
+    box-shadow: 0 0 8px rgb(104, 99, 99);
+    cursor: pointer;
+}
+
+.leftArrow{
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    right:95% ;
+    top:50%;
+    
+    transform:          rotate(180deg);
+    -ms-transform:      rotate(180deg);
+    -moz-transform:     rotate(180deg);
+    -webkit-transform:  rotate(180deg);
+    -o-transform:       rotate(180deg);
+}
+
+.leftArrow:hover{
+    -moz-box-shadow: 0 0 8px rgb(88, 86, 86);
+    -webkit-box-shadow: 0 0 8px rgb(71, 69, 69);
+    box-shadow: 0 0 8px rgb(104, 99, 99);
+    cursor: pointer;
+}
+
+.content{
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    
+}
+
+
